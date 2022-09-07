@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "13230656"))
+API_HASH = getenv("API_HASH", "9455846f87f4c6cca68099d19d014eb4")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5450255415:AAHqx8YnEn6aYidTGceqM64t9PxHkCVHpV0")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://dragon:t.me.yy8gg@dragon.7v7baed.mongodb.net/?retryWrites=true&w=majority")
@@ -40,11 +40,11 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᯓ 𓆩 ˹ 𝕭𝕺𝕿 𝔾𝔼ℕ𝔼ℝ𝔸𝕃 ˼ 𓆪 𓆃")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "-1001272233898").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -71,10 +71,10 @@ CHANNEL_SUDO = getenv(
     "CHANNEL_SUDO", ""
 )  # رابط قناتك
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", ""
+    "SUPPORT_CHANNEL", "https://t.me/general29300"
 )  # Example:- https://t.me/yy8gg
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", ""
+    "SUPPORT_GROUP", "https://t.me/Team_General1"
 )  # Example:- https://t.me/alhajji_supprot
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -106,7 +106,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/ku_ks")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
@@ -141,7 +141,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BACrlflMzRrylCIDK5Xg3TpL732r6VvLj6lF3f0Hjl2cW_ABupSVzlUUMWGwiQf3P7QIw6mlbgyxf6_j9BV5H5m2QHi6XvHG9amDFjP0sCgfELkpMrW-B2YAxXSaVZrBdyuc2DcBgDnynMY2aEQlJONcnaI5IiaqhHT4Unk3jDyscefoVNQBJ3mc9cqQAmLdq1XfxRnULJErP5KaBprnon-R2ker7SuvuWnTrIH4HZcZvy3Rys8mPyY8cSqePxgdSpcjWLvIkmxaTm0PUeOUrU9XGOnWcqS5dAcED6q_0JYSTRgyOAVlVDbglMaKULAadnqel88uTOqdQxDIV4Yh096FAAAAATvvxW8A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -171,7 +171,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/d986d5125de10193c252b.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/92eb5ea45b9f671431227.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
